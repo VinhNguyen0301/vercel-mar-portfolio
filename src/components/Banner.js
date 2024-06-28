@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Blockchain/Web3", "Fullstack Developer"];
+  const toRotate = ["Software Developer", "Blockchain/Web3"];
   const period = 2000;
 
   useEffect(() => {
@@ -69,17 +69,19 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Blockchain/Web3", "Fullstack Developer" ]'
+                      data-rotate='["Software Developer", "Blockchain/Web3" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    I'm a seasoned software developer specializing in Web3 and
+                    blockchain technologies. With expertise in ReactJS, Angular,
+                    VueJS, TypeScript, JavaScript, and Solidity, I craft dynamic
+                    and responsive UIs. I also thrive in creating secure,
+                    seamless eCommerce solutions. Dive into my portfolio to see
+                    how I fuse innovation and technology to deliver standout
+                    digital experiences.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
