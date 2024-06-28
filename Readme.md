@@ -6,7 +6,7 @@ Portfolio Resuma, building by Nextjs, Tailwindcss.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
+<img width="1361" alt="Screenshot 2024-06-28 at 22 07 49" src="https://github.com/VinhNguyen0301/mar-portfolio/assets/25846910/1de313ed-ec81-404d-8b0a-99784cbec262">
 
 Built using:
 
